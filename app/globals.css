@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: "Inter", "SF Pro Display", "Helvetica Neue", "Segoe UI", sans-serif;
+    --font-instrument-serif: Georgia, serif;
+    --font-jetbrains-mono: "SFMono-Regular", Consolas, monospace;
+    --background: 36 10% 5%;
+    --foreground: 34 34% 93%;
+    --card: 36 8% 8%;
+    --card-foreground: 34 34% 93%;
+    --surface: 36 8% 10%;
+    --surface-elevated: 36 8% 12%;
+    --border: 34 18% 16%;
+    --border-strong: 34 18% 24%;
+    --input: 36 8% 12%;
+    --primary: 29 53% 54%;
+    --primary-foreground: 34 34% 93%;
+    --secondary: 36 8% 9%;
+    --secondary-foreground: 34 34% 93%;
+    --muted: 36 8% 9%;
+    --muted-foreground: 32 12% 66%;
+    --accent: 29 53% 54%;
+    --accent-foreground: 34 34% 93%;
+    --success: 142 38% 38%;
+    --success-foreground: 142 52% 88%;
+    --warning: 33 77% 56%;
+    --warning-foreground: 33 90% 15%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background-image:
+      radial-gradient(circle at top left, hsl(var(--primary) / 0.14), transparent 28%),
+      radial-gradient(circle at 85% 10%, hsl(var(--foreground) / 0.05), transparent 20%),
+      linear-gradient(180deg, #100f0d 0%, #0b0b0a 42%, #090909 100%);
+    font-feature-settings: "rlig" 1, "calt" 1;
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    background-color: hsl(var(--primary) / 0.3);
+    color: hsl(var(--foreground));
+  }
+
+  a,
+  button,
+  [role="button"] {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+}
+
+@layer components {
+  .border-hairline {
+    border-width: 0.5px;
+  }
+
+  .surface-panel {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02)),
+      rgba(255, 255, 255, 0.02);
+    border-radius: 32px;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.05),
+      0 28px 80px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(10px);
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: hsl(var(--muted-foreground));
+  }
+
+  .luxury-title {
+    font-family: var(--font-instrument-serif), serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+  }
+
+  .gold-line {
+    height: 1px;
+    width: 96px;
+    background: linear-gradient(90deg, rgba(212, 156, 98, 0), rgba(212, 156, 98, 0.9), rgba(212, 156, 98, 0));
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
