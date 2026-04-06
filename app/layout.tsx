@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
-  title: "Forge House | Private performance club",
+  title: "Forge House Gym | Elite Performance & Recovery Club",
   description:
-    "Forge House is a premium gym landing page concept built to showcase cinematic layout, motion, and high-end frontend craft.",
+    "Experience world-class strength training, expert coaching, and premium recovery at Forge House. The premier fitness sanctuary for professionals.",
 };
 
 export default function RootLayout({

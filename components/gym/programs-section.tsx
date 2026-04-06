@@ -11,8 +11,8 @@ export function ProgramsSection() {
     <SectionShell
       id="programs"
       eyebrow="Programs"
-      title="Training tracks with clearer hierarchy and much better visual presence."
-      intro="Each program is now treated like its own mini campaign surface instead of a simple card, which gives the section more premium weight."
+      title="Programmed for Performance"
+      intro="Choose the track that aligns with your ambition. Each program is meticulously designed to deliver measurable results through expert coaching and disciplined mechanics."
     >
       <div className="space-y-8">
         {programs.map((program, index) => (

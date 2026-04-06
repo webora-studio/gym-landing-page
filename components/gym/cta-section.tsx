@@ -13,11 +13,11 @@ export function CtaSection() {
             <div className="max-w-[700px]">
               <p className="eyebrow">Join Forge House</p>
               <h2 className="mt-5 text-balance text-4xl font-semibold tracking-[-0.05em] text-foreground sm:text-[3.5rem] sm:leading-[1.02]">
-                Ready to train in a gym that feels as premium as the results it promises?
+                Your peak performance starts here.
               </h2>
               <p className="mt-6 max-w-[560px] text-lg leading-8 text-muted-foreground">
-                Book a private walkthrough, tour the club, meet the coaching team, and discover
-                the membership that fits your routine, goals, and lifestyle.
+                Join an exclusive community of professionals who refuse to compromise on their
+                health. Book your private club tour and consultation today.
               </p>
             </div>
             <div className="flex flex-col items-start gap-5 lg:items-end">

@@ -5,9 +5,9 @@ import { SectionShell } from "@/components/gym/section-shell";
 export function TestimonialsSection() {
   return (
     <SectionShell
-      eyebrow="Member perspective"
-      title="Why members stay once they walk through the door."
-      intro="The strongest gym websites do not just show equipment. They sell confidence, consistency, and results people can feel in their daily life."
+      eyebrow="Member Stories"
+      title="Join a community of high-achievers."
+      intro="Our members don't just come here to train; they come here to transform. Discover the impact Forge House has on their performance, consistency, and daily life."
     >
       <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
         <FadeUp>

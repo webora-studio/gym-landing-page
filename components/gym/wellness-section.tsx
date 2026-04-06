@@ -10,9 +10,9 @@ export function WellnessSection() {
   return (
     <SectionShell
       id="spaces"
-      eyebrow="Club spaces"
-      title="A more premium layout needs calmer information and stronger image rhythm."
-      intro="This section uses a layered gallery composition so the visual storytelling carries more of the page."
+      eyebrow="Club Spaces"
+      title="A space designed for those who demand more."
+      intro="Beyond just a gym, Forge House is a hospitality-led experience where performance meets refined aesthetics."
     >
       <div className="grid gap-6 lg:grid-cols-[1.02fr_0.98fr]">
         <FadeUp>
@@ -30,12 +30,12 @@ export function WellnessSection() {
               <div>
                 <p className="eyebrow">Atmosphere</p>
                 <p className="mt-4 text-2xl leading-[1.55] tracking-[-0.03em] text-foreground">
-                  The club feels like a hospitality environment shaped around performance.
+                  A hospitality-driven environment built for high performance.
                 </p>
               </div>
               <p className="text-base leading-8 text-muted-foreground">
-                Warm metals, stone neutrals, focused lighting, and quieter circulation patterns
-                create a mood that immediately separates the brand from generic fitness sites.
+                Meticulously curated lighting, premium textures, and a calm, focused environment
+                create a space where you can perform at your absolute peak without distraction.
               </p>
             </div>
           </motion.div>
@@ -50,13 +50,14 @@ export function WellnessSection() {
                 className="h-full min-h-[290px] w-full object-cover"
               />
               <div className="p-7 sm:p-8">
-                <p className="eyebrow">Recovery architecture</p>
+                <p className="eyebrow">Elite Recovery Suite</p>
                 <h3 className="mt-4 text-2xl font-semibold tracking-[-0.04em] text-foreground">
-                  Recovery gets equal visual priority.
+                  Recovery as a Performance Pillar
                 </h3>
                 <p className="mt-4 text-base leading-8 text-muted-foreground">
-                  The site now shows recovery as a headline part of the brand instead of a small
-                  supporting bullet, which makes the concept feel more complete and more premium.
+                  Our recovery facilities aren't an afterthought. They are a core pillar of your
+                  training, ensuring you stay at the top of your game and recover faster between
+                  sessions.
                 </p>
               </div>
             </div>

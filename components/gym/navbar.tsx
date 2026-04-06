@@ -32,8 +32,8 @@ export function Navbar() {
       <Container className="py-4">
         <div className="flex items-center justify-between gap-4 rounded-full border border-white/8 bg-black/10 px-4 py-3 backdrop-blur-md">
           <Link href="#" className="flex flex-col leading-none text-foreground">
-            <span className="text-[0.68rem] uppercase tracking-[0.34em] text-muted-foreground">Private club</span>
-            <span className="mt-2 text-lg font-semibold tracking-[0.18em]">FORGE HOUSE</span>
+            <span className="text-[0.68rem] uppercase tracking-[0.34em] text-muted-foreground">Elite Gym</span>
+            <span className="mt-2 text-lg font-semibold tracking-[0.18em]">FORGE HOUSE GYM</span>
           </Link>
           <nav className="hidden items-center gap-8 md:flex">
             {navItems.map((item) => (

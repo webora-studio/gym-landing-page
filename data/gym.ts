@@ -20,18 +20,18 @@ export const heroImages = {
 
 export const experiencePanels = [
   {
-    title: "Arrival lounge",
-    body: "Soft lighting, quiet acoustics, natural materials, and a calmer entry sequence that makes the club feel intentional from the first step.",
+    title: "Arrival Lounge",
+    body: "A transition space designed to help you leave the day behind and step into your peak performance state with focused lighting and natural materials.",
     image: "/gym/real-gymfloor-3.jpg",
   },
   {
-    title: "Strength floor",
-    body: "Performance equipment, open circulation, and enough breathing room for training to feel focused rather than crowded.",
+    title: "Strength Floor",
+    body: "Elite performance equipment, open circulation, and enough breathing room for your training to feel focused, powerful, and uninterrupted.",
     image: "/gym/real-hero-2.jpg",
   },
   {
-    title: "Recovery rooms",
-    body: "Sauna, cold exposure, breathwork, and reset spaces built into the weekly rhythm of the club instead of tacked on afterward.",
+    title: "Recovery Suite",
+    body: "Regenerate faster with an integrated suite of saunas, cold exposure, and guided breathwork built into your weekly club rhythm.",
     image: "/gym/real-treadmills-2.jpg",
   },
 ] as const;
@@ -40,28 +40,28 @@ export const programs = [
   {
     name: "Strength Residency",
     description:
-      "Long-horizon strength coaching for members who want cleaner movement, stronger mechanics, and a disciplined weekly rhythm.",
+      "Advanced strength coaching for results-driven members who want cleaner movement, stronger mechanics, and a disciplined performance rhythm.",
     detail: "3 coached sessions each week",
     image: "/gym/real-athlete-3.jpg",
   },
   {
     name: "Conditioning Lab",
     description:
-      "High-output conditioning built for professionals who want athletic intensity without chaotic programming or generic circuits.",
+      "High-output athletic conditioning built for professionals who want maximum intensity without chaotic programming or generic circuits.",
     detail: "45-minute focused format",
     image: "/gym/real-hero-2.jpg",
   },
   {
     name: "Private Performance",
     description:
-      "One-to-one coaching for physique, posture, injury-aware training, and complete performance planning around your real schedule.",
+      "One-to-one elite coaching for physique, posture, and complete performance planning tailored around your high-stakes schedule.",
     detail: "Bespoke programming and tracking",
     image: "/gym/real-treadmills-2.jpg",
   },
   {
     name: "Recovery Club",
     description:
-      "Mobility, sauna, cold exposure, and guided recovery protocols that make the body feel supported enough to train harder and more consistently.",
+      "A complete wellness protocol including mobility, sauna, and cold exposure to ensure your body is ready to train harder and more consistently.",
     detail: "Integrated recovery access",
     image: "/gym/real-gymfloor-3.jpg",
   },
@@ -100,14 +100,14 @@ export const membershipTiers = [
     name: "Core",
     price: "$180",
     cadence: "/month",
-    description: "For members who want a beautiful space, flexible access, and a stronger weekly routine.",
+    description: "Premium access for members who prioritize a world-class training environment and a stronger weekly routine.",
     points: ["Unlimited gym access", "2 coached classes weekly", "Recovery lounge access"],
   },
   {
     name: "Signature",
     price: "$320",
     cadence: "/month",
-    description: "The most popular membership for members who want coaching, accountability, and visible results.",
+    description: "Our most comprehensive membership for members who want elite coaching, accountability, and visible results.",
     points: ["Unlimited classes", "Monthly coach review", "Priority booking and recovery"],
     featured: true,
   },
@@ -115,7 +115,7 @@ export const membershipTiers = [
     name: "Private",
     price: "Custom",
     cadence: "",
-    description: "A high-touch option for clients who want personal coaching, schedule planning, and fully tailored progress.",
+    description: "A high-touch bespoke option for clients who want personal performance coaching, schedule planning, and fully tailored results.",
     points: ["Private coaching", "Nutrition guidance", "Concierge scheduling"],
   },
 ] as const;

@@ -10,9 +10,9 @@ export function PhilosophySection() {
   return (
     <SectionShell
       id="experience"
-      eyebrow="First impression"
-      title="The premium feeling should be visible before anyone reads the copy."
-      intro="This version leans into art direction, photography, and spatial rhythm so the landing page feels more like a designed brand world than a generic fitness build."
+      eyebrow="The Forge Standard"
+      title="Training that respects your time and your goals."
+      intro="We’ve removed the friction from fitness. No crowds, no ego—just a meticulously designed environment where every detail supports your progress."
       className="pt-8"
     >
       <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">

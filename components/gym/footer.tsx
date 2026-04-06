@@ -9,10 +9,11 @@ export function Footer() {
       <Container>
         <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="text-lg font-semibold tracking-[0.12em] text-foreground">FORGE HOUSE</p>
+            <p className="text-lg font-semibold tracking-[0.12em] text-foreground">FORGE HOUSE GYM</p>
             <p className="mt-3 max-w-[360px] text-sm leading-7 text-muted-foreground">
-              Premium performance club concept built as a client-facing demo with cinematic
-              layout, motion, and scrolling rhythm.
+              Forge House is an elite performance and recovery club dedicated to helping
+              professionals achieve their peak physical potential through expert coaching and
+              tailored wellness protocols.
             </p>
           </div>
           <div className="flex flex-wrap gap-x-6 gap-y-3">

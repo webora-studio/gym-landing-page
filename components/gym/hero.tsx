@@ -38,18 +38,18 @@ export function Hero() {
           transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-[760px]"
         >
-          <p className="eyebrow text-white/70">Premium gym and recovery club</p>
+          <p className="eyebrow text-white/70">Elite Performance & Recovery Club</p>
           <div className="mt-6 gold-line" />
           <h1 className="mt-7 text-balance text-[4rem] font-semibold leading-[0.9] tracking-[-0.085em] text-white sm:text-[5.8rem] lg:text-[7.6rem]">
             <span className="luxury-title mr-3 inline-block text-[0.88em] text-[rgba(244,232,214,0.92)]">
-              The club
+              Build the body
             </span>
-            people talk about after their first visit.
+            that reflects your ambition.
           </h1>
           <p className="mt-7 max-w-[620px] text-lg leading-8 text-white/72 sm:text-xl">
-            Join a premium fitness club designed to help busy professionals get stronger, look
-            better, and stay consistent with expert coaching, recovery spaces, and a member
-            experience that feels worth coming back to.
+            A premium fitness sanctuary for high-performers. Experience world-class coaching,
+            state-of-the-art equipment, and advanced recovery—all in an environment designed for
+            results.
           </p>
           <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row">
             <Link href="#contact">
